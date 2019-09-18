@@ -1,0 +1,261 @@
+      	/* this is a comment in CSS. MOVE THIS STYLE TO A SEPARATE FILE */
+
+
+        	.letter {
+
+        		width:200px; /*resize as you see fit */
+        		height:300px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		border:1px solid #000; /*feel free to remove or hide this rule */
+        		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+     	    .letter div {
+     	    	position: absolute;
+     	    }   
+     	/*A LEFT*/
+			.a1 {
+				top: 100px;
+				left: 100px;
+				width: 35px;
+				height: 260px;
+				transform: skew(-20deg);
+				background: blue;
+				}
+			/*A RIGHT*/
+			.a2 {
+				top: 100px;
+				left: 210px;
+				width: 35px;
+				height: 260px;
+				transform: skew(20deg);
+				background: blue;
+				}
+			/*A BAR*/
+			.a3{
+				background: blue;
+				width: 129px;
+				height: 35px;
+				top:240px;
+				left:98px;
+				}
+			/*B LINE*/
+			.b1{
+				background: blue;
+				width: 35px;
+				height: 260px;
+				top:100px;
+				left:350px;
+			}
+			/*B TOP BOX*/
+			.b2{
+				background: blue;
+				width: 100px;
+				height: 130px;
+				top: 100px;
+				left:370px;
+			}
+			/*B TOP CURVE*/
+			.b3{
+				background: blue;
+				width: 110px;
+				height: 130px;
+				top: 100px;
+				left:420px;
+				border-radius: 75px;
+			}
+			/*B BOTTOM BOX*/
+			.b4{
+				background: blue;
+				width: 110px;
+				height: 130px;
+				top: 230px;
+				left:370px;
+			}
+			/*B BOTTOM CURVE*/
+			.b5{
+				background: blue;
+				width:90px;
+				height: 140px;
+				top: 220px;
+				left:440px;
+				border-radius:100px;
+			}
+			/*B TOP BOX*/
+			.b6{
+				background: white;
+				width: 70px;
+				height: 75px;
+				top: 130px;
+				left:385px;
+			}
+			/*B TOP CURVE*/
+			.b7{
+				background: white;
+				width: 70px;
+				height: 70px;
+				top: 135px;
+				left:420px;
+				border-radius: 75px;
+			}
+			/*B BOTTOM BOX*/
+			.b8{
+				background: white;
+				width: 70px;
+				height: 90px;
+				top: 240px;
+				left:385px;
+			}
+			/*B TOP*/
+			.b9{
+				width: 80px;
+     			height: 70px;
+     			top: 135px;
+				left:415px;
+      			background: red;
+      			-moz-border-radius: 10px;
+      			-webkit-border-radius: 10px;
+      			border-radius: 30px;
+      		}
+			/*talk buble code imipulated*/
+			.b10{
+				width: 110px;
+     			height: 90px;
+     			top: 232px;
+				left:380px;
+      			background: white;
+      			position: relative;
+      			-moz-border-radius: 10px;
+      			-webkit-border-radius: 10px;
+      			border-radius: 30px;
+      		}
+      		.b11{
+				width: 110px;
+				height: 130px;
+				top: 100px;
+				left:420px;
+      			background: blue;
+      			-moz-border-radius: 10px;
+      			-webkit-border-radius: 10px;
+      			border-radius: 40px;
+      		}
+      		.b12{
+				width: 110px;
+     			height: 75px;
+     			top: 32px;
+				left:380px;
+      			background: white;
+      			position: relative;
+      			-moz-border-radius: 10px;
+      			-webkit-border-radius: 10px;
+      			border-radius: 25px;
+   			}
+			/*B BOTTOM CURVE*/
+			.c1{
+				background: blue;
+				width: 200px;
+				height:260px;
+				top: 100px;
+				left:590px;
+				border-radius: 70px;
+			}
+			.c2{
+				background: white;
+				width: 130px;
+				height: 190px;
+				top: 135px;
+				left: 625px;
+				border-radius: 40px;
+			}	
+			.c3{
+				background: white;
+				width: 70px;
+				height: 90px;
+				top: 190px;
+				left:740px;
+			}
+			.d1{
+				background: blue;
+				width: 35px;
+				height: 260px;
+				top:100px;
+				left:850px;
+			}
+			.d2{
+				background: blue;
+				width: 70px;
+				height: 260px;
+				top: 100px;
+				left:885px;
+			}
+			.d3{
+				background: blue;
+				width: 150px;
+				height: 260px;
+				top: 100px;
+				left:885px;
+				border-radius: 75px;
+			}
+			.d4{
+				background: white;
+				width: 88px;
+				height: 189px;
+				top: 136px;
+				left:885px;
+			}
+			.d5{
+				background: white;
+				width: 65px;
+				height: 189px;
+				top: 136px;
+				left:935px;
+				border-radius: 75px;
+			}
+			.e1{
+				background: blue;
+				width: 35px;
+				height: 260px;
+				top:450px;
+				left:50px;
+			}
+			.e2{
+				background: blue;
+				width: 185px;
+				height: 35px;
+				top:450px;
+				left:50px;
+			}
+			.e3{
+				background: blue;
+				width: 185px;
+				height: 35px;
+				top:675px;
+				left:50px;
+			}
+			.e4{
+				background: blue;
+				width: 185px;
+				height: 35px;
+				top:565px;
+				left:50px;
+			}
+			.f1{
+				background: blue;
+				width: 35px;
+				height: 260px;
+				top:450px;
+				left:350px;
+			}
+			.f2{
+				background: blue;
+				width: 170px;
+				height: 35px;
+				top:450px;
+				left:350px;
+			}
+			.f3{
+				background: blue;
+				width: 170px;
+				height: 35px;
+				top:565px;
+				left:350px;
+			}

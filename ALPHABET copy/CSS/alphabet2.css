@@ -1,0 +1,34 @@
+      	/* this is a comment in CSS. MOVE THIS STYLE TO A SEPARATE FILE */
+
+
+        	.letter {
+
+        		width:200px; /*resize as you see fit */
+        		height:300px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		border:1px solid #000; /*feel free to remove or hide this rule */
+        		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+     	    .letter div {
+     	    	position: absolute;
+     	    }
+     	    .letter-a{
+     	    	height:270px;
+     	    	width:245px;
+     	    }
+
+			.letter-g{
+     	    	height:270px;
+     	    	width:195px;
+     	    }
+			/*G OUTSIDE CURVE*/
+			.g1 {
+				top: 5px;
+				left: 5px;
+				width: 10px;
+				height: 10px;
+				background: blue;
+				}
+
+
+			

@@ -1,0 +1,994 @@
+      	/* this is a comment in CSS. MOVE THIS STYLE TO A SEPARATE FILE */
+
+
+        	.letter {
+
+        		width:200px; /*resize as you see fit */
+        		height:300px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		border:1px solid #000; /*feel free to remove or hide this rule */
+        		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+     	    .letter div {
+     	    	position: absolute;
+     	    }
+     	    .letter-a{
+     	    	height:270px;
+     	    	width:245px;
+     	    }
+
+     	/*A LEFT*/
+			.a1 {
+				top: 5px;
+				left: 50px;
+				width: 35px;
+				height: 260px;
+				transform: skew(-20deg);
+				background: black;
+				}
+			/*A RIGHT*/
+			.a2 {
+				top: 5px;
+				left: 160px;
+				width: 35px;
+				height: 260px;
+				transform: skew(20deg);
+				background: black;
+				}
+			/*A BAR*/
+			.a3{
+				background: black;
+				width: 129px;
+				height: 35px;
+				top:145px;
+				left:48px;
+				}
+			.letter-b{
+     	    	height:270px;
+     	    	width:185px;
+     	    }
+     	/*B LINE*/
+			.b1{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top:5px;
+				left:3px;
+			}
+			/*B TOP BOX*/
+			.b2{
+				background: black;
+				width: 110px;
+				height: 130px;
+				top: 5px;
+				left:32px;
+			}
+			/*B BOTTOM BOX*/
+			.b3{
+				background: black;
+				width: 110px;
+				height: 130px;
+				top: 135px;
+				left:27px;
+			}
+			/*B BOTTOM CURVE*/
+			.b4{
+				background: black;
+				width:90px;
+				height: 140px;
+				top: 125px;
+				left:92px;
+				border-radius:100px;
+			}
+			/*B TOP CURVE*/
+			.b5{
+				width: 110px;
+				height: 130px;
+				top: 5px;
+				left:72px;
+      			background: black;
+      			-moz-border-radius: 10px;
+      			-webkit-border-radius: 10px;
+      			border-radius: 40px;
+      		}
+      		/*B INSIDE TOP BOX*/
+			.b6{
+				background: white;
+				width: 70px;
+				height: 75px;
+				top: 35px;
+				left: 37px;
+			}
+			/*B INSIDE BOTTOM BOX*/
+			.b7{
+				background: white;
+				width: 70px;
+				height: 90px;
+				top: 145px;
+				left:37px;
+			}
+			/*B INSIDE BOTTOM CURVE*/
+			.b8{
+				width: 110px;
+     			height: 90px;
+     			top: 145px;
+				left:42px;
+      			background: white;
+      			position: relative;
+      			-moz-border-radius: 10px;
+      			-webkit-border-radius: 10px;
+      			border-radius: 30px;
+      		}
+      		/*B INSIDE TOP CURVE*/
+      		.b9{
+				width: 110px;
+     			height: 75px;
+     			top: 35px;
+				left: 42px;
+      			background: white;
+      			position: relative;
+      			-moz-border-radius: 10px;
+      			-webkit-border-radius: 10px;
+      			border-radius: 25px;
+   			}
+			.letter-c{
+     	    	height:270px;
+     	    	width:205px;
+     	    }
+			/*C OUTSIDE CURVE*/
+			.c1{
+				background: black;
+				width: 200px;
+				height:260px;
+				top: 5px;
+				left:3px;
+				border-radius: 70px;
+			}
+			/*C INSIDE CURVE*/
+			.c2{
+				background: white;
+				width: 130px;
+				height: 190px;
+				top: 40px;
+				left: 39px;
+				border-radius: 40px;
+			}
+			/*C CUTOUT*/
+			.c3{
+				background: white;
+				width: 53px;
+				height: 90px;
+				top: 90px;
+				left:150px;
+			}
+			.letter-d{
+     	    	height:270px;
+     	    	width:195px;
+     	    }
+     	    /*D LINE*/
+     	    .d1{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top:3px;
+				left:5px;
+			}
+			/*D BOX*/
+			.d2{
+				background:black;
+				width: 70px;
+				height: 260px;
+				top: 3px;
+				left: 40px;
+			}
+			/*D OUTIDE CURVE*/
+			.d3{
+				background: black;
+				width: 150px;
+				height: 260px;
+				top: 3px;
+				left:40px;
+				border-radius: 75px;
+			}
+			/*D INSIDE BOX*/
+			.d4{
+				background: white;
+				width: 88px;
+				height: 189px;
+				top: 40px;
+				left:39px;
+			}
+			/*D INSIDE CURVE*/
+			.d5{
+				background: white;
+				width: 65px;
+				height: 189px;
+				top: 40px;
+				left:90px;
+				border-radius: 75px;
+			}
+			.letter-e{
+     	    	height:270px;
+     	    	width:195px;
+     	    }
+     	    /*E LINE*/
+     	 .e1{
+				background: black;
+				width: 35px;
+				height: 260px;
+				top:5px;
+				left:3px;
+			}
+			/*E TOP LINE*/
+			.e2{
+				background: black;
+				width: 185px;
+				height: 35px;
+				top:5px;
+				left:3px;
+			}
+			/*E MID LINE*/
+			.e3{
+				background: black;
+				width: 170px;
+				height: 35px;
+				top:119px;
+				left:3px;
+			}
+			/*E BOTTOM LINE*/
+			.e4{
+				background: black;
+				width: 185px;
+				height: 35px;
+				top:230px;
+				left:3px;
+			}
+			.letter-f{
+     	    	height:270px;
+     	    	width:195px;
+     	    }
+     	 /*F LINE*/
+     	 .f1{
+			  background: black;
+				width: 35px;
+				height: 260px;
+				top:3px;
+				left:5px;
+			}
+			/*F TOP LINE*/
+			.f2{
+				background:black;
+				width: 185px;
+				height: 35px;
+				top:3px;
+				left:5px;
+			}
+			/*F BOTTOM LINE*/
+			.f3{
+				background:black;
+				width: 170px;
+				height: 35px;
+				top:119px;
+				left:5px;
+			}
+			.letter-g{
+            height:270px;
+            width:205px;
+     	    }
+      /*G OUTSIDE CURVE*/
+			.g1{
+				background: black;
+				width: 200px;
+				height:260px;
+				top: 5px;
+				left:3px;
+				border-radius: 70px;
+			}
+			/*G INSIDE CURVE*/
+			.g2{
+				background: white;
+				width: 130px;
+				height: 190px;
+				top: 40px;
+				left: 39px;
+				border-radius: 40px;
+			}
+			/*G CUTOUT*/
+			.g3{
+				background: white;
+				width: 53px;
+				height: 50px;
+				top: 90px;
+				left:150px;
+			}
+      /*G LINE*/
+			.g4{
+				background: black;
+				width: 100px;
+				height: 35px;
+				top:119px;
+				left:103px;
+			}
+      .letter-h{
+            height:270px;
+            width:200px;
+     	    }
+      /*H RIGHT LINE*/
+      .h1{
+        background: black;
+        width: 35px;
+        height: 260px;
+        top:3px;
+        left:5px;
+      }
+      /*H MID LINE*/
+      .h2{
+        background: black;
+				width: 170px;
+				height: 35px;
+				top:119px;
+				left:5px;
+      }
+      /*H LEFT LINE*/
+      .h3{
+        background: black;
+        width: 35px;
+        height: 260px;
+        top:3px;
+        left:160px;
+      }
+      .letter-i{
+            height:270px;
+            width:45px;
+     	    }
+      /*H RIGHT LINE*/
+      .i1{
+        background: black;
+        width: 35px;
+        height: 260px;
+        top:3px;
+        left:5px;
+      }
+      .letter-j{
+          height:270px;
+          width:196px;
+        }
+      /*J OUTSIDE CURVE*/
+			.j1{
+				background: black;
+				width: 190px;
+				height:260px;
+				top: 5px;
+				left:3px;
+				border-radius: 70px;
+			}
+			/*J INSIDE CURVE*/
+			.j2{
+				background: white;
+				width: 120px;
+				height: 190px;
+				top: 40px;
+				left: 39px;
+				border-radius: 40px;
+			}
+      /*H RIGHT LINE*/
+      .j3{
+        background: black;
+        width: 34px;
+        height: 190px;
+        top:3px;
+        left:159px;
+      }
+      /*H CUT OUT*/
+      .j4{
+        background: white;
+        width:156px;
+        height: 150px;
+        top:3px;
+        left:3px;
+      }
+      .letter-k{
+          height:270px;
+          width:205px;
+        }
+      /*F LINE*/
+      .k1{
+        background: black;
+        width: 35px;
+        height: 260px;
+        top:3px;
+        left:5px;
+       }
+      /*K */
+     .k3 {
+       top: 3px;
+       left: 70px;
+       width: 50px;
+       height: 180px;
+       transform: skew(-45deg);
+       background: black;
+     }
+     .k4 {
+       top: 123px;
+       left: 100px;
+       width: 50px;
+       height: 142px;
+       transform: skew(40deg);
+       background: black;
+     }
+     .k5{
+       background: white;
+       width: 15px;
+       height: 260px;
+       top:3px;
+       left:-9px;
+      }
+      .letter-l{
+          height:270px;
+          width:195px;
+        }
+        /*H RIGHT LINE*/
+      .l1{
+        background: black;
+        width: 35px;
+        height: 260px;
+        top:3px;
+        left:5px;
+      }
+      /*E BOTTOM LINE*/
+			.l2{
+				background: black;
+				width: 185px;
+				height: 35px;
+				top:230px;
+				left:5px;
+			}
+      .letter-m{
+          height:270px;
+          width:241px;
+        }
+        /*A LEFT*/
+        .m1 {
+          top: 5px;
+          left: 100px;
+          width: 40px;
+          height: 260px;
+          transform: skew(-35deg);
+          background: black;
+          }
+        /*A RIGHT*/
+        .m2 {
+          top: 5px;
+          left: 100px;
+          width:40px;
+          height: 260px;
+          transform: skew(35deg);
+          background: black;
+          }
+        .m3 {
+          top: 135px;
+          left: 3px;
+          width:210px;
+          height: 130px;
+          background: white;
+          }
+        .m4 {
+          background: black;
+    			width: 35px;
+    			height: 260px;
+    			top:5px;
+    			left:3px;
+          }
+        .m5 {
+          background: black;
+      		width: 35px;
+      		height: 260px;
+      		top:5px;
+      		left:202px;
+          }
+      .letter-n{
+          height:270px;
+          width:215px;
+        }
+        /*A RIGHT*/
+        .n1 {
+          top: 5px;
+          left: 85px;
+          width:45px;
+          height: 260px;
+          transform: skew(30deg);
+          background: black;
+          }
+        .n2 {
+          background: black;
+    			width: 35px;
+    			height: 260px;
+    			top:5px;
+        	left:3px;
+          }
+        .n3 {
+          background: black;
+    			width: 35px;
+    			height: 260px;
+    			top:5px;
+        	left:176px;
+          }
+      .letter-o{
+          height:270px;
+          width:206px;
+        }
+      /*O OUTSIDE CURVE*/
+  		.o1{
+  			background: black;
+  			width: 200px;
+  			height:260px;
+  			top: 5px;
+  			left:3px;
+  			border-radius: 70px;
+  		}
+  		/*O INSIDE CURVE*/
+  		.o2{
+  			background: white;
+  			width: 130px;
+  			height: 190px;
+  		  top: 40px;
+  			left: 39px;
+  			border-radius: 40px;
+  		}
+      .letter-p{
+          height:270px;
+          width:185px;
+        }
+        /*B LINE*/
+  			.p1{
+  				background: black;
+  				width: 35px;
+  				height: 260px;
+  				top:5px;
+  				left:3px;
+  			}
+  			/*B TOP BOX*/
+  			.p2{
+  				background: black;
+  				width: 110px;
+  				height: 145px;
+  				top: 5px;
+  				left:32px;
+  			}
+  			/*B TOP CURVE*/
+  			.p3{
+  				width: 110px;
+  				height: 145px;
+  				top: 5px;
+  				left:72px;
+        	background: black;
+        	-moz-border-radius: 10px;
+        	-webkit-border-radius: 10px;
+        	border-radius: 40px;
+        }
+        /*B INSIDE TOP BOX*/
+  			.p4{
+  				background: white;
+  				width: 70px;
+  				height: 75px;
+  				top: 40px;
+  				left: 37px;
+        }
+        /*B INSIDE TOP CURVE*/
+        .p5{
+  				width: 100px;
+       		height: 75px;
+       		top:40px;
+  				left:50px;
+        	background: white;
+        	position: relative;
+        	-moz-border-radius: 10px;
+        	-webkit-border-radius: 10px;
+          border-radius: 25px;
+     		}
+        .letter-q{
+            height:270px;
+            width:235px;
+          }
+          /*O OUTSIDE CURVE*/
+      		.q1{
+      			background: black;
+      			width: 200px;
+      			height:260px;
+      			top: 5px;
+      			left:3px;
+      			border-radius: 70px;
+      		}
+      		/*O INSIDE CURVE*/
+      		.q2{
+      			background: white;
+      			width: 130px;
+      			height: 190px;
+      		  top: 40px;
+      			left: 39px;
+      			border-radius: 40px;
+      		}
+          /*K */
+         .q3 {
+           top: 173px;
+           left: 140px;
+           width: 45px;
+           height: 90px;
+           transform: skew(45deg);
+           background: black;
+        }
+        .letter-r{
+            height:270px;
+            width:193px;
+          }
+          /*B LINE*/
+    		 .r1{
+    			 background: black;
+    			 width: 35px;
+    			 height: 260px;
+    			 top:5px;
+    			 left:3px;
+    			}
+    			/*B TOP BOX*/
+    			.r2{
+    				background: black;
+    				width: 110px;
+    				height: 145px;
+    				top: 5px;
+    				left:32px;
+    			}
+    			/*B TOP CURVE*/
+    			.r3{
+    				width: 110px;
+    				height: 145px;
+    				top: 5px;
+    				left:72px;
+          	background: black;
+          	-moz-border-radius: 10px;
+          	-webkit-border-radius: 10px;
+          	border-radius: 40px;
+          }
+          /*B INSIDE TOP BOX*/
+    			.r4{
+    				background: white;
+    				width: 70px;
+    				height: 75px;
+    				top: 40px;
+    				left: 37px;
+          }
+          /*B INSIDE TOP CURVE*/
+          .r5{
+    				width: 100px;
+         		height: 75px;
+         		top:40px;
+    				left:50px;
+          	background: white;
+          	position: relative;
+          	-moz-border-radius: 10px;
+          	-webkit-border-radius: 10px;
+            border-radius: 25px;
+       		}
+          /*K */
+    			.r6{
+    				top: 150px;
+    				left:115px;
+    				width: 40px;
+    				height: 113px;
+    				transform: skew(30deg);
+    				background: black;
+          }
+        .letter-s{
+            height:270px;
+            width:209px;
+          }
+        /*C OUTSIDE CURVE*/
+    		.s1{
+    			background: black;
+    			width: 200px;
+    			height:260px;
+    			top: 5px;
+  				left:3px;
+  				border-radius: 70px;
+    		}
+  			/*C INSIDE CURVE*/
+    		.s2{
+				  background: white;
+    			width: 130px;
+    			height: 190px;
+    			top: 40px;
+  				left: 39px;
+  				border-radius: 40px;
+        }
+    		/*C CUTOUT*/
+    		.s3{
+    			background: white;
+    			width: 53px;
+    			height: 30px;
+    			top: 90px;
+  				left:150px;
+  			}
+        .s4{
+  				background: white;
+  				width: 90px;
+  				height: 100px;
+  				top: 70px;
+  				left:3px;
+        }
+        .s5{
+  				background: black;
+  				width: 201px;
+  				height: 145px;
+  				top: 7px;
+  				left:3px;
+  				border-radius:70px;
+        }
+        .s6{
+  				  background: red;
+      			width: 130px;
+      			height: 75px;
+      			top: 153px;
+    				left: 39px;
+    				border-radius: 25px;
+        }
+        .s7{
+  				background: black;
+  				width: 110px;
+  				height: 37px;
+  				top: 115px;
+  				left:70px;
+        }
+        .s8{
+				  background: white;
+    			width: 130px;
+    			height: 74px;
+    			top: 41px;
+  				left: 39px;
+  				border-radius: 25px;
+        }
+        .s9{
+  				background: white;
+  				width: 105px;
+  				height: 30px;
+  				top: 85px;
+  				left:100px;
+        }
+        .s10{
+  				background: white;
+  				width: 70px;
+  				height: 70px;
+  				top: 115px;
+  				left:133px;
+        }
+        .s11{
+    			background: black;
+    			width: 115px;
+    			height:120px;
+    			top: 115px;
+  				left:89px;
+  				border-radius: 45px;
+    		}
+        .s12{
+				  background: white;
+    			width: 130px;
+    			height: 79px;
+    			top: 151px;
+  				left: 39px;
+  				border-radius: 25px;
+        }
+        .letter-t{
+            height:270px;
+            width:191px;
+          }
+        /*E TOP LINE*/
+    		.t1{
+    			background: black;
+    			width: 185px;
+    			height: 35px;
+    			top:3px;
+    			left:3px;
+    		}
+        /*T LINE*/
+        .t2{
+          background: black;
+          width: 35px;
+          height: 260px;
+          top:3px;
+          left:78px;
+        }
+        .letter-u{
+            height:270px;
+            width:197px;
+          }
+        /*J OUTSIDE CURVE*/
+    		.u1{
+    			background: black;
+    			width: 191px;
+    			height:260px;
+    			top: 5px;
+    			left:3px;
+    			border-radius: 70px;
+    		}
+    		/*J INSIDE CURVE*/
+    		.u2{
+    			background: white;
+    			width: 121px;
+    			height: 225px;
+    			top: 5px;
+    			left: 38px;
+    			border-radius: 40px;
+    		}
+        /*H RIGHT LINE*/
+        .u3{
+          background: black;
+          width: 35px;
+          height: 190px;
+          top:3px;
+          left:159px;
+        }
+        /*H CUT OUT*/
+        .u4{
+          background: white;
+          width:121px;
+          height: 155px;
+          top:3px;
+          left:38px;
+        }
+        /*H RIGHT LINE*/
+        .u5{
+          background: black;
+          width: 35px;
+          height: 190px;
+          top:3px;
+          left:3px;
+        }
+        .letter-v{
+            height:270px;
+            width:250px;
+          }
+          /*A LEFT*/
+    			.v1 {
+    				top: 5px;
+    				left: 50px;
+    				width: 40px;
+    				height: 260px;
+    				transform: skew(20deg);
+    				background: black;
+    				}
+    			/*A RIGHT*/
+    			.v2 {
+    				top: 5px;
+    				left: 160px;
+    				width: 40px;
+    				height: 260px;
+    				transform: skew(-20deg);
+    				background: black;
+    				}
+        .letter-w{
+            height:270px;
+            width:241px;
+          }
+          /*A LEFT*/
+          .w1 {
+    				top: 5px;
+    				left: 100px;
+    				width: 40px;
+    				height: 260px;
+    				transform: skew(-35deg);
+    				background: black;
+    				}
+    			/*A RIGHT*/
+    			.w2 {
+    				top: 5px;
+    				left: 100px;
+    				width:40px;
+    				height: 260px;
+    				transform: skew(35deg);
+    				background: black;
+    				}
+          .w3 {
+      			top: 3px;
+      			left: 3px;
+      			width: 230px;
+    				height: 132px;
+    				background: white;
+    				}
+          .w4{
+       		 background: black;
+       		 width: 35px;
+       		 height: 260px;
+       		 top:5px;
+    			 left:3px;
+           }
+           .w5{
+        		background: black;
+        	  width: 35px;
+        	  height: 260px;
+            top:5px;
+            left:203px;
+            }
+        .letter-x{
+            height:270px;
+            width:235px;
+          }
+          /*A LEFT*/
+    			.x1 {
+    				top: 5px;
+    				left: 100px;
+    				width: 40px;
+    				height: 260px;
+    				transform: skew(-35deg);
+    				background: black;
+    				}
+    			/*A RIGHT*/
+    			.x2 {
+    				top: 5px;
+    				left: 100px;
+    				width:40px;
+    				height: 260px;
+    				transform: skew(35deg);
+    				background: black;
+    				}
+        .letter-y{
+            height:270px;
+            width:235px;
+          }
+          /*A LEFT*/
+          .y1 {
+            top: 5px;
+            left: 100px;
+            width: 40px;
+            height: 260px;
+            transform: skew(-35deg);
+            background: black;
+            }
+          /*A RIGHT*/
+          .y2 {
+            top: 5px;
+            left: 100px;
+            width:40px;
+            height: 260px;
+            transform: skew(35deg);
+            background: black;
+            }
+          .y3 {
+            top: 135px;
+            left: 3px;
+            width:229px;
+            height: 130px;
+            background: white;
+            }
+            .y4 {
+              top: 135px;
+              left: 100px;
+              width: 40px;
+              height: 130px;
+              background: black;
+              }
+        .letter-z{
+            height:270px;
+            width:235px;
+          }
+        /*E TOP LINE*/
+    		.z1{
+  				background: black;
+  				width: 185px;
+  				height: 35px;
+  				top:5px;
+          left:3px;
+    			}
+    		/*E BOTTOM LINE*/
+    		.z2{
+    			background: black;
+  				width: 196px;
+  				height: 35px;
+        	top:230px;
+    			left:29px;
+    			}
+        .z3 {
+          top: 5px;
+          left: 95px;
+          width: 45px;
+          height: 260px;
+          transform: skew(-35deg);
+          background: black;
+          }
