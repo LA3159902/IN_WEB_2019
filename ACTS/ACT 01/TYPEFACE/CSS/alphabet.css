@@ -1,11 +1,12 @@
     /*the good copy*/
     /* this is a comment in CSS. MOVE THIS STYLE TO A SEPARATE FILE */
+
+
     .letter {
 
       width:200px; /*resize as you see fit */
       height:300px; /*resize as you see fit */
       display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
-      border:1px solid #000; /*feel free to remove or hide this rule */
       position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
         	}
     .letter div {
@@ -22,7 +23,8 @@
 			width: 35px;
 			height: 260px;
 			transform: skew(-20deg);
-			background: black;
+			background: magenta;
+      z-index: 1;
 	  }
 		/*A RIGHT*/
 		.a2 {
@@ -31,15 +33,17 @@
 			width: 35px;
 		  height: 260px;
 			transform: skew(20deg);
-			background: black;
+			background: magenta;
+      z-index: 1;
 		}
 	  /*A BAR*/
 		.a3{
-			background: black;
+			background: magenta;
 			width: 129px;
 			height: 35px;
 		  top:145px;
 		  left:48px;
+      z-index: 1;
 		}
 		.letter-b{
      	    	height:270px;
@@ -47,36 +51,40 @@
     }
    	/*B LINE*/
 		.b1{
-			background: black;
+			background: yellow;
 			width: 35px;
 			height: 260px;
 			top:5px;
 			left:3px;
+      z-index: 1;
 		}
 		/*B TOP BOX*/
 		.b2{
-			background: black;
+			background: yellow;
 			width: 110px;
 			height: 130px;
 			top: 5px;
 			left:32px;
+      z-index: 1;
 		}
 		/*B BOTTOM BOX*/
 		.b3{
-			background: black;
+			background: yellow;
 			width: 110px;
 			height: 130px;
 			top: 135px;
 			left:27px;
+      z-index: 1;
 		}
 		/*B BOTTOM CURVE*/
 		.b4{
-			background: black;
+			background: yellow;
 			width:90px;
 			height: 140px;
 			top: 125px;
 			left:92px;
 			border-radius:100px;
+      z-index: 1;
 		}
 		/*B TOP CURVE*/
 		.b5{
@@ -84,26 +92,29 @@
 			height: 130px;
 			top: 5px;
 			left:72px;
-      background: black;
+      background: yellow;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 40px;
+      z-index: 1;
     }
     /*B INSIDE TOP BOX*/
 		.b6{
-			background: white;
+			background: #0000ff;
 			width: 70px;
 			height: 75px;
 			top: 35px;
 			left: 37px;
+      z-index: 1;
 		}
 		/*B INSIDE BOTTOM BOX*/
 		.b7{
-			background: white;
+			background: #0000ff;
 			width: 70px;
 			height: 90px;
 			top: 145px;
 			left:37px;
+      z-index: 1;
 		}
 		/*B INSIDE BOTTOM CURVE*/
 		.b8{
@@ -111,11 +122,12 @@
      	height: 90px;
      	top: 145px;
 			left:42px;
-      background: white;
+      background: #0000ff;
       position: relative;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 30px;
+      z-index: 1;
     }
     /*B INSIDE TOP CURVE*/
     .b9{
@@ -123,11 +135,12 @@
      	height: 75px;
      	top: 35px;
 			left: 42px;
-      background: white;
+      background: #0000ff;
       position: relative;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 25px;
+      z-index: 1;
    	}
 		.letter-c{
      	    	height:270px;
@@ -135,29 +148,32 @@
     }
 		/*C OUTSIDE CURVE*/
 		.c1{
-			background: black;
+			background: magenta;
 			width: 200px;
 			height:260px;
 			top: 5px;
 			left:3px;
 			border-radius: 70px;
+      z-index: 1;
 		}
 		/*C INSIDE CURVE*/
 		.c2{
-			background: white;
+			background: #0000ff;
 			width: 130px;
 			height: 190px;
 			top: 40px;
 			left: 39px;
 			border-radius: 40px;
+      z-index: 1;
 		}
 		/*C CUTOUT*/
 		.c3{
-			background: white;
+			background: #0000ff;
 			width: 53px;
 			height: 90px;
 			top: 90px;
 			left:150px;
+      z-index: 1;
 		}
 		.letter-d{
      	      height:270px;
@@ -165,45 +181,50 @@
     }
     /*D LINE*/
     .d1{
-			background: black;
+			background: magenta;
 			width: 35px;
 			height: 260px;
 			top:3px;
 			left:5px;
+      z-index: 1;
 		}
 		/*D BOX*/
 		.d2{
-			background:black;
+			background:magenta;
 			width: 70px;
 			height: 260px;
 			top: 3px;
 			left: 40px;
+      z-index: 1;
 		}
 		/*D OUTIDE CURVE*/
 		.d3{
-			background: black;
+			background: magenta;
 			width: 150px;
 			height: 260px;
 			top: 3px;
 			left:40px;
 			border-radius: 75px;
+      z-index: 1;
 		}
 		/*D INSIDE BOX*/
 		.d4{
-			background: white;
+			background: #0000ff;
 			width: 88px;
 			height: 189px;
 			top: 40px;
 			left:39px;
+      z-index: 1;
 		}
 		/*D INSIDE CURVE*/
 		.d5{
-			background: white;
+			background: #0000ff;
 			width: 65px;
 			height: 189px;
 			top: 40px;
 			left:90px;
 			border-radius: 75px;
+      z-index: 1;
 		}
 		.letter-e{
      	    	height:270px;
@@ -211,35 +232,79 @@
     }
     /*E LINE*/
     .e1{
-			background: black;
+			background: magenta;
 			width: 35px;
 			height: 260px;
 			top:5px;
 			left:3px;
+      z-index: 1;
 		}
 		/*E TOP LINE*/
 		.e2{
-			background: black;
+			background: magenta;
 			width: 185px;
 			height: 35px;
 			top:5px;
 			left:3px;
+      z-index: 1;
 		}
 		/*E MID LINE*/
 		.e3{
-			background: black;
+			background: magenta;
 			width: 170px;
 			height: 35px;
 			top:119px;
 			left:3px;
+      z-index: 1;
 		}
 		/*E BOTTOM LINE*/
 		.e4{
-			background: black;
+			background: magenta;
 			width: 185px;
 			height: 35px;
 			top:230px;
 			left:3px;
+      z-index: 1;
+		}
+    .letter-ee{
+     	    	height:270px;
+     	    	width:195px;
+    }
+    /*E LINE*/
+    .ee1{
+			background: yellow;
+			width: 35px;
+			height: 260px;
+			top:5px;
+			left:3px;
+      z-index: 1;
+		}
+		/*E TOP LINE*/
+		.ee2{
+			background: yellow;
+			width: 185px;
+			height: 35px;
+			top:5px;
+			left:3px;
+      z-index: 1;
+		}
+		/*E MID LINE*/
+		.ee3{
+			background: yellow;
+			width: 170px;
+			height: 35px;
+			top:119px;
+			left:3px;
+      z-index: 1;
+		}
+		/*E BOTTOM LINE*/
+		.ee4{
+			background: yellow;
+			width: 185px;
+			height: 35px;
+			top:230px;
+			left:3px;
+      z-index: 1;
 		}
 		.letter-f{
      	    	height:270px;
@@ -247,27 +312,30 @@
     }
     /*F LINE*/
     .f1{
-			background: black;
+			background: magenta;
 			width: 35px;
 			height: 260px;
 			top:3px;
 			left:5px;
+      z-index: 1;
 		}
 		/*F TOP LINE*/
 		.f2{
-			background:black;
+			background:magenta;
 			width: 185px;
 			height: 35px;
 			top:3px;
 			left:5px;
+      z-index: 1;
 		}
 		/*F BOTTOM LINE*/
 		.f3{
-			background:black;
+			background:magenta;
 			width: 170px;
 			height: 35px;
 			top:119px;
 			left:5px;
+      z-index: 1;
 		}
 		.letter-g{
             height:270px;
@@ -275,37 +343,41 @@
     }
     /*G OUTSIDE CURVE*/
 		.g1{
-			background: black;
+			background: magenta;
 			width: 200px;
 			height:260px;
 			top: 5px;
 			left:3px;
 			border-radius: 70px;
+      z-index: 1;
 		}
 		/*G INSIDE CURVE*/
 		.g2{
-			background: white;
+			background: #0000ff;
 			width: 130px;
       height: 190px;
 			top: 40px;
 			left: 39px;
 			border-radius: 40px;
+      z-index: 1;
 		}
 		/*G CUTOUT*/
 		.g3{
-			background: white;
+			background: #0000ff;
 			width: 53px;
 			height: 50px;
 			top: 90px;
 			left:150px;
+      z-index: 1;
 		}
     /*G LINE*/
 		.g4{
-			background: black;
+			background: magenta;
 			width: 100px;
 			height: 35px;
 			top:119px;
 			left:103px;
+      z-index: 1;
 		}
     .letter-h{
             height:270px;
@@ -313,27 +385,30 @@
     }
     /*H RIGHT LINE*/
     .h1{
-      background: black;
+      background: magenta;
       width: 35px;
       height: 260px;
       top:3px;
       left:5px;
+      z-index: 1;
     }
     /*H MID LINE*/
     .h2{
-      background: black;
+      background: magenta;
 			width: 170px;
 			height: 35px;
 			top:119px;
 			left:5px;
+      z-index: 1;
     }
     /*H LEFT LINE*/
     .h3{
-      background: black;
+      background: magenta;
       width: 35px;
       height: 260px;
       top:3px;
       left:160px;
+      z-index: 1;
     }
     .letter-i{
             height:270px;
@@ -341,11 +416,12 @@
     }
     /*I LINE*/
     .i1{
-      background: black;
+      background: magenta;
       width: 35px;
       height: 260px;
       top:3px;
       left:5px;
+      z-index: 1;
     }
     .letter-j{
             height:270px;
@@ -353,37 +429,41 @@
     }
     /*J OUTSIDE CURVE*/
 		.j1{
-			background: black;
+			background: magenta;
 			width: 190px;
 			height:260px;
 			top: 5px;
 			left:3px;
 			border-radius: 70px;
+      z-index: 1;
 		}
 		/*J INSIDE CURVE*/
 		.j2{
-			background: white;
+			background: #0000ff;
 			width: 120px;
 			height: 190px;
 			top: 40px;
 			left: 39px;
 			border-radius: 40px;
+      z-index: 1;
 		}
     /*J RIGHT LINE*/
     .j3{
-      background: black;
+      background: magenta;
       width: 34px;
       height: 190px;
       top:3px;
       left:159px;
+      z-index: 1;
     }
     /*J CUT OUT*/
     .j4{
-      background: white;
+      background: #0000ff;
       width:156px;
       height: 150px;
       top:3px;
       left:3px;
+      z-index: 1;
     }
     .letter-k{
             height:270px;
@@ -391,11 +471,12 @@
     }
     /*K LINE*/
     .k1{
-      background: black;
+      background: magenta;
       width: 35px;
       height: 260px;
       top:3px;
       left:5px;
+      z-index: 1;
     }
     /*K TOP LINE*/
     .k3 {
@@ -404,7 +485,8 @@
       width: 50px;
       height: 180px;
       transform: skew(-45deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     /*K BOTTOM LINE*/
     .k4 {
@@ -413,15 +495,17 @@
       width: 50px;
       height: 142px;
       transform: skew(40deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     /*K COVER UP*/
     .k5{
-      background: white;
+      background: #0000ff;
       width: 15px;
       height: 260px;
       top:3px;
       left:-9px;
+      z-index: 1;
     }
     .letter-l{
             height:270px;
@@ -429,19 +513,21 @@
     }
     /*L RIGHT LINE*/
     .l1{
-      background: black;
+      background: magenta;
       width: 35px;
       height: 260px;
       top:3px;
       left:5px;
+      z-index: 1;
     }
     /*L BOTTOM LINE*/
 		.l2{
-			background: black;
+			background: magenta;
 			width: 185px;
 			height: 35px;
 			top:230px;
 			left:5px;
+      z-index: 1;
 		}
     .letter-m{
             height:270px;
@@ -454,7 +540,8 @@
       width: 40px;
       height: 260px;
       transform: skew(-35deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     /*M RIGHT ANGLE*/
     .m2 {
@@ -463,7 +550,8 @@
       width:40px;
       height: 260px;
       transform: skew(35deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     /*M CUTOUT*/
     .m3 {
@@ -471,23 +559,26 @@
       left: 3px;
       width:210px;
       height: 130px;
-      background: white;
+      background: #0000ff;
+      z-index: 1;
     }
     /*M RIGHT LINE*/
     .m4 {
-      background: black;
+      background: magenta;
   		width: 35px;
   		height: 260px;
       top:5px;
       left:3px;
+      z-index: 1;
     }
     /*M LEFT LINE*/
     .m5 {
-      background: black;
+      background: magenta;
       width: 35px;
     	height: 260px;
     	top:5px;
     	left:202px;
+      z-index: 1;
     }
     .letter-n{
             height:270px;
@@ -500,23 +591,26 @@
       width:45px;
       height: 260px;
       transform: skew(30deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     /*N RIGHT LINE*/
     .n2 {
-      background: black;
+      background: magenta;
   		width: 35px;
   		height: 260px;
       top:5px;
       left:3px;
+      z-index: 1;
     }
     /*N LEFT LINE*/
     .n3 {
-      background: black;
+      background: magenta;
     	width: 35px;
     	height: 260px;
     	top:5px;
       left:176px;
+      z-index: 1;
     }
     .letter-o{
             height:270px;
@@ -524,21 +618,23 @@
     }
     /*O OUTSIDE CURVE*/
   	.o1{
-  		background: black;
+  		background: magenta;
   		width: 200px;
   		height:260px;
   		top: 5px;
   		left:3px;
   		border-radius: 70px;
+      z-index: 1;
   	}
   	/*O INSIDE CURVE*/
   	.o2{
-  		background: white;
+  		background: #0000ff;
       width: 130px;
 			height: 190px;
   	  top: 40px;
   		left: 39px;
   		border-radius: 40px;
+      z-index: 1;
   	}
     .letter-p{
             height:270px;
@@ -546,19 +642,21 @@
     }
     /*P LINE*/
     .p1{
-	    background: black;
+	    background: magenta;
       width: 35px;
       height: 260px;
       top:5px;
 	    left:3px;
+      z-index: 1;
     }
     /*P TOP BOX*/
     .p2{
-      background: black;
+      background: magenta;
   	  width: 110px;
   	  height: 145px;
   	  top: 5px;
   	  left:32px;
+      z-index: 1;
 	  }
     /*P CUTOUT CURVE*/
     .p3{
@@ -566,18 +664,20 @@
   	  height: 145px;
   	  top: 5px;
   	  left:72px;
-      background: black;
+      background: magenta;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
-      border-radius: 40px
+      border-radius: 40px;
+      z-index: 1;
     }
     /*P INSIDE TOP BOX*/
     .p4{
-  	   background: white;
+  	   background: #0000ff;
   	   width: 70px;
   	   height: 75px;
   	   top: 40px;
   	   left: 37px;
+       z-index: 1;
     }
     /*P INSIDE TOP CURVE*/
     .p5{
@@ -585,11 +685,12 @@
       height: 75px;
       top:40px;
 		  left:50px;
-      background: white;
+      background: #0000ff;
       position: relative;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 25px;
+      z-index: 1;
     }
     .letter-q{
             height:270px;
@@ -597,21 +698,23 @@
     }
     /*Q OUTSIDE CURVE*/
     .q1{
-  	  background: black;
+  	  background: magenta;
       width: 200px;
   	  height:260px;
       top: 5px;
       left:3px;
   	  border-radius: 70px;
+      z-index: 1;
     }
     /*Q INSIDE CURVE*/
     .q2{
-  	  background: white;
+  	  background: #0000ff;
       width: 130px;
       height: 190px;
   	  top: 40px;
   	  left: 39px;
       border-radius: 40px;
+      z-index: 1;
     }
     /*Q LINE*/
     .q3 {
@@ -620,7 +723,8 @@
       width: 45px;
       height: 90px;
       transform: skew(45deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     .letter-r{
             height:270px;
@@ -628,19 +732,21 @@
     }
     /*R LINE*/
     .r1{
-  	  background: black;
+  	  background: magenta;
   	  width: 35px;
   	  height: 260px;
       top:5px;
       left:3px;
+      z-index: 1;
     }
     /*R TOP BOX*/
     .r2{
-      background: black;
+      background: magenta;
       width: 110px;
       height: 145px;
       top: 5px;
   	  left:32px;
+      z-index: 1;
     }
     /*R TOP CURVE*/
     .r3{
@@ -648,18 +754,20 @@
   	  height: 145px;
   	  top: 5px;
   	  left:72px;
-      background: black;
+      background: magenta;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 40px;
+      z-index: 1;
     }
     /*R INSIDE TOP BOX*/
     .r4{
-		  background: white;
+		  background: #0000ff;
 		  width: 70px;
   	  height: 75px;
   	  top: 40px;
   	  left: 37px;
+      z-index: 1;
     }
     /*R INSIDE TOP CURVE*/
     .r5{
@@ -667,11 +775,12 @@
       height: 75px;
       top:40px;
       left:50px;
-      background: white;
+      background: #0000ff;
       position: relative;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 25px;
+      z-index: 1;
     }
     /*R ANGLE*/
     .r6{
@@ -680,7 +789,8 @@
       width: 40px;
       height: 113px;
       transform: skew(30deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     .letter-s{
             height:270px;
@@ -688,106 +798,118 @@
     }
     /*S BOTTOM OUTSIDE CURVE*/
     .s1{
-			background: black;
+			background: magenta;
       width: 200px;
     	height:260px;
     	top: 5px;
   		left:3px;
     	border-radius: 70px;
+      z-index: 1;
     }
   	/*S INSIDE CURVE*/
     .s2{
-		  background: white;
+		  background: #0000ff;
   		width: 130px;
   		height: 190px;
   		top: 40px;
 			left: 39px;
   		border-radius: 40px;
+      z-index: 1;
     }
     /*S CUTOUT*/
     .s3{
-    	background: white;
+    	background: #0000ff;
     	width: 53px;
     	height: 30px;
     	top: 90px;
   		left:150px;
+      z-index: 1;
   	}
     /*S CUTOUT*/
     .s4{
-  		background: white;
+  		background: #0000ff;
 			width: 90px;
   		height: 100px;
   		top: 70px;
   		left:3px;
+      z-index: 1;
     }
     /*S TOP CURVE*/
     .s5{
-  		background: black;
+  		background: magenta;
   		width: 201px;
   		height: 145px;
   		top: 7px;
   		left:3px;
   		border-radius:70px;
+      z-index: 1;
     }
     /*S TOP CURVE*/
     .s6{
-  	  background: black;
+  	  background: magenta;
       width: 130px;
       height: 75px;
       top: 153px;
     	left: 39px;
     	border-radius: 25px;
+      z-index: 1;
     }
     /*S MID BAR*/
     .s7{
-  		background: black;
+  		background: magenta;
   		width: 110px;
   		height: 37px;
   		top: 115px;
   		left:70px;
+      z-index: 1;
       }
     /*S CUTOUTS*/
     .s8{
-			background: white;
+			background: #0000ff;
     	width: 130px;
     	height: 74px;
     	top: 41px;
   		left: 39px;
   		border-radius: 25px;
+      z-index: 1;
     }
     /*S CUTOUTS*/
     .s9{
-  		background: white;
+  		background: #0000ff;
   		width: 105px;
   		height: 30px;
   		top: 85px;
   		left:100px;
+      z-index: 1;
     }
     /*S CUTOUTS*/
     .s10{
-  		background: white;
+  		background: #0000ff;
   		width: 70px;
   		height: 70px;
   		top: 115px;
   		left:133px;
+      z-index: 1;
     }
     /*S BOTTOM CURVE*/
     .s11{
-    	background: black;
+    	background: magenta;
     	width: 115px;
     	height:120px;
     	top: 115px;
   		left:89px;
   		border-radius: 45px;
+      z-index: 1;
     }
     /*S CUTOUT*/
     .s12{
-			background: white;
+			background: #0000ff;
     	width: 130px;
     	height: 79px;
     	top: 151px;
   		left: 39px;
   		border-radius: 25px;
+      z-index: 1;
     }
     .letter-t{
             height:270px;
@@ -795,19 +917,24 @@
     }
     /*T TOP LINE*/
     .t1{
-    	background: black;
+    	background: magenta;
     	width: 185px;
     	height: 35px;
     	top:3px;
     	left:3px;
+      position: absolute;
+      z-index: 1;
     }
     /*T LINE*/
     .t2{
-      background: black;
+      background: magenta;
       width: 35px;
       height: 260px;
       top:3px;
       left:78px;
+      position: absolute;
+      z-index: 1;
+
     }
     .letter-u{
             height:270px;
@@ -815,45 +942,50 @@
     }
     /*U OUTSIDE CURVE*/
     .u1{
-    	background: black;
+    	background: magenta;
     	width: 191px;
     	height:260px;
     	top: 5px;
     	left:3px;
     	border-radius: 70px;
+      z-index: 1;
     }
     /*U INSIDE CURVE*/
     .u2{
-    	background: white;
+    	background: #0000ff;
     	width: 121px;
     	height: 225px;
     	top: 5px;
     	left: 38px;
     	border-radius: 40px;
+      z-index: 1;
     }
     /*U LEFT LINE*/
     .u3{
-      background: black;
+      background: magenta;
       width: 35px;
       height: 190px;
       top:3px;
       left:159px;
+      z-index: 1;
     }
     /*U CUTOUT*/
     .u4{
-      background: white;
+      background: #0000ff;
       width:121px;
       height: 155px;
       top:3px;
       left:38px;
+      z-index: 1;
     }
     /*U RIGHT LINE*/
     .u5{
-      background: black;
+      background: magenta;
       width: 35px;
       height: 190px;
       top:3px;
       left:3px;
+      z-index: 1;
     }
     .letter-v{
             height:270px;
@@ -866,7 +998,8 @@
     	width: 40px;
     	height: 260px;
     	transform: skew(20deg);
-    	background: black;
+    	background: magenta;
+      z-index: 1;
     }
     /*V RIGHT ANGLE*/
     .v2 {
@@ -875,7 +1008,8 @@
     	width: 40px;
     	height: 260px;
     	transform: skew(-20deg);
-    	background: black;
+    	background: magenta;
+      z-index: 1;
     }
     .letter-w{
             height:270px;
@@ -888,7 +1022,8 @@
   		width: 40px;
 			height: 260px;
 			transform: skew(-35deg);
-			background: black;
+			background: yellow;
+      z-index: 1;
     }
     /*W RIGHT ANGLE*/
     .w2 {
@@ -897,7 +1032,8 @@
   		width:40px;
 			height: 260px;
 			transform: skew(35deg);
-			background: black;
+			background: yellow;
+      z-index: 1;
     }
     /*W CUTOUT*/
     .w3 {
@@ -905,23 +1041,26 @@
       left: 3px;
       width: 230px;
     	height: 132px;
-    	background: white;
+    	background: #0000ff;
+      z-index: 1;
     }
     /*W RIGHT LINE*/
     .w4{
-      background: black;
+      background: yellow;
       width: 35px;
       height: 260px;
       top:5px;
     	left:3px;
+      z-index: 1;
     }
     /*W LEFT LINE*/
     .w5{
-      background: black;
+      background: yellow;
       width: 35px;
       height: 260px;
       top:5px;
       left:203px;
+      z-index: 1;
     }
     .letter-x{
             height:270px;
@@ -934,7 +1073,8 @@
     	width: 40px;
     	height: 260px;
     	transform: skew(-35deg);
-  		background: black;
+  		background: magenta;
+      z-index: 1;
     }
     /*X RIGHT ANGLE*/
     .x2 {
@@ -943,7 +1083,8 @@
     	width:40px;
     	height: 260px;
     	transform: skew(35deg);
-    	background: black;
+    	background: magenta;
+      z-index: 1;
     }
     .letter-y{
             height:270px;
@@ -956,7 +1097,8 @@
       width: 40px;
       height: 260px;
       transform: skew(-35deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     /*Y LEFT ANGLE*/
     .y2 {
@@ -965,7 +1107,8 @@
       width:40px;
       height: 260px;
       transform: skew(35deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     /*Y CUTOUT*/
     .y3 {
@@ -973,7 +1116,8 @@
       left: 3px;
       width:229px;
       height: 130px;
-      background: white;
+      background: #0000ff;
+      z-index: 1;
     }
     /*Y LINE*/
     .y4 {
@@ -981,7 +1125,8 @@
       left: 100px;
       width: 40px;
       height: 130px;
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
     .letter-z{
             height:270px;
@@ -989,19 +1134,21 @@
     }
     /*Z TOP LINE*/
     .z1{
-  		background: black;
+  		background: magenta;
   		width: 185px;
   		height: 35px;
   		top:5px;
       left:3px;
+      z-index: 1;
   	}
     /*Z BOTTOM LINE*/
     .z2{
-    	background: black;
+    	background: magenta;
   		width: 196px;
   		height: 35px;
       top:230px;
     	left:29px;
+      z-index: 1;
     }
     /*Z ANGLE*/
     .z3 {
@@ -1010,5 +1157,751 @@
       width: 45px;
       height: 260px;
       transform: skew(-35deg);
-      background: black;
+      background: magenta;
+      z-index: 1;
     }
+    .letter-2{
+            height:270px;
+            width:205px;
+    }
+    /*C OUTSIDE CURVE*/
+    .two1{
+      background: magenta;
+      width: 200px;
+      height:260px;
+      top: 5px;
+      left:3px;
+      border-radius: 70px;
+      z-index: 1;
+    }
+    /*C INSIDE CURVE*/
+    .two2{
+      background: #0000ff;
+      width: 130px;
+      height: 190px;
+      top: 40px;
+      left: 39px;
+      border-radius: 40px;
+      z-index: 1;
+    }
+    /*C CUTOUT*/
+    .two3{
+      background: #0000ff;
+      width: 220px;
+      height: 170px;
+      top: 90px;
+      left:1px;
+      z-index: 1;
+    }
+    /*Z BOTTOM LINE*/
+    .two5{
+      background: magenta;
+      width: 157px;
+      height: 35px;
+      top:230px;
+      left:45px;
+      z-index: 1;
+    }
+    /*Z ANGLE*/
+    .two6 {
+      top: 76px;
+      left: 90px;
+      width: 45px;
+      height: 189px;
+      transform: skew(-42deg);
+      background: magenta;
+      z-index: 1;
+    }
+    .two7{
+      top: 60px;
+      left: 203px;
+      width: 30px;
+      height: 140px;
+      background: #0000ff;
+      z-index: 1;
+    }
+    .letter-0{
+            height:270px;
+            width:206px;
+    }
+    /*O OUTSIDE CURVE*/
+  	.zero1{
+  		background: magenta;
+  		width: 200px;
+  		height:260px;
+  		top: 5px;
+  		left:3px;
+  		border-radius: 70px;
+      z-index: 1;
+  	}
+  	/*O INSIDE CURVE*/
+  	.zero2{
+  		background: #0000ff;
+      width: 130px;
+			height: 190px;
+  	  top: 40px;
+  		left: 39px;
+  		border-radius: 40px;
+      z-index: 1;
+  	}
+    /*O LINE*/
+    .zero3 {
+      top: 50px;
+      left: 87px;
+      width: 45px;
+      height: 192px;
+      transform: skew(-35deg);
+      background: magenta;
+      z-index: 1;
+    }
+    .letter-8{
+     	    	height:270px;
+     	    	width:206px;
+    }
+      /*NUMBER 8*/
+    	.eight1{
+    		background: magenta;
+    		width: 200px;
+    		height:145px;
+    		top: 5px;
+    		left:3px;
+    		border-radius: 50px;
+        z-index: 1;
+    	}
+    	/*NUMBER 8*/
+    	.eight2{
+    		background: #0000ff;
+        width: 130px;
+  			height: 80px;
+    	  top: 40px;
+    		left: 39px;
+    		border-radius: 30px;
+        z-index: 1;
+    	}
+      /*NUMBER 8*/
+      .eight3{
+        background: magenta;
+        width: 200px;
+        height:145px;
+        top:120px;
+        left:3px;
+        border-radius: 50px;
+        z-index: 1;
+      }
+      /*NUMBER 8*/
+      .eight4{
+        background: #0000ff;
+        width: 130px;
+        height: 80px;
+        top: 150px;
+        left: 39px;
+        border-radius: 30px;
+        z-index: 1;
+      }
+      .letter-1{
+       	    	height:270px;
+       	    	width:120px;
+      }
+      /*NUMBER 1*/
+      .one2{
+        background: magenta;
+        width: 35px;
+        height: 260px;
+        top:5px;
+        left:60px;
+        z-index: 1;
+      }
+      /*NUMBER 1*/
+      .one3{
+        top: 5px;
+        left: 23px;
+        width: 40px;
+        height: 75px;
+        transform: skew(-30deg);
+        background: magenta;
+        z-index: 1;
+      }
+      .letter-3{
+       	    	height:325px;
+       	    	width:70px;
+      }
+      /*SPACE*/
+      .space1{
+        background: 0000ff;
+        width: 100px;
+        height: 5px;
+        top:5px;
+        left:5px;
+        z-index: 1;
+      }
+      .letter-4{
+              height:325px;
+              width:76px;
+      }
+      /*SPACE*/
+      .space2{
+        background: 0000ff;
+        width: 50px;
+        height: 5px;
+        top:5px;
+        left:5px;
+        z-index: 1;
+      }
+      .letter-5{
+              height:325px;
+              width:20px;
+      }
+      /*SPACE*/
+      .space3{
+        background: 0000ff;
+        width: 50px;
+        height: 5px;
+        top:5px;
+        left:5px;
+        z-index: 1;
+      }
+      .letter-6{
+              height:325px;
+              width:6px;
+      }
+      /*SPACE*/
+      .space4{
+        background: #0000ff;
+        width: 50px;
+        height: 5px;
+        top:5px;
+        left:5px;
+        z-index: 1;
+      }
+      .letter-7{
+              height:325px;
+              width:2px;
+      }
+      /*SPACE*/
+      .space5{
+        background: #0000ff;
+        width: 2px;
+        height: 5px;
+        top:5px;
+        left:5px;
+        z-index: 1;
+      }
+      .letter-9{
+              height:325px;
+              width:1px;
+      }
+      /*SPACE*/
+      .space6{
+        background: #0000ff;
+        width: 2px;
+        height: 5px;
+        top:5px;
+        left:5px;
+        z-index: 1;
+      }
+      .letter-10{
+              height:385px;
+              width:70px;
+      }
+      .space7{
+        /*SPACE*/
+        background: #0000ff;
+        width: 2px;
+        height: 5px;
+        top:5px;
+        left:5px;
+        z-index: 1;
+      }
+      /*TYP*/
+      /*APRIL 27 - 28*/
+      .paragraph1 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 231px;
+  			left: 87px;
+  			width: 1000px;
+  			height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      .paragraph2 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 261px;
+        left: 87px;
+        width: 400px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      .paragraph3 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 291px;
+        left: 87px;
+        width: 400px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*THEORIZING THE WEB*/
+      .paragraph4 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 81px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*THEORIZING THE WEB*/
+      .paragraph5 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 111px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*THEORIZING THE WEB*/
+      .paragraph6 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 141px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*THEORIZING THE WEB*/
+      .paragraph7 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 171px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*THEORIZING THE WEB*/
+      .paragraph8 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 201px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*THEORIZING THE WEB*/
+      .paragraph9 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 231px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*THEORIZING THE WEB*/
+      .paragraph10 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 261px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*THEORIZING THE WEB*/
+      .paragraph11 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 291px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*10:30AM DOORS OPEN*/
+      .paragraph12 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1280px;
+        left: 12px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*10:30AM DOORS OPEN*/
+      .paragraph13 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1310px;
+        left: 12px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*10:30AM DOORS OPEN*/
+      .paragraph14 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1340px;
+        left: 12px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*10:30AM DOORS OPEN*/
+      .paragraph15 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1370px;
+        left: 12px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*10:30AM DOORS OPEN*/
+      .paragraph16 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1400px;
+        left: 12px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO A #A1 BODY POLITICS*/
+      .paragraph17 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1038px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO A #A1 BODY POLITICS*/
+      .paragraph18 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1068px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO A #A1 BODY POLITICS*/
+      .paragraph19 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1098px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO A #A1 BODY POLITICS*/
+      .paragraph20 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1128px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO A #A1 BODY POLITICS*/
+      .paragraph21 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1158px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO B #B1 TECH SUPPORT*/
+      .paragraph22 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1220px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO B #B1 TECH SUPPORT*/
+      .paragraph23 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1250px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO B #B1 TECH SUPPORT*/
+      .paragraph24 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1280px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO B #B1 TECH SUPPORT*/
+      .paragraph25 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1310px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO B #B1 TECH SUPPORT*/
+      .paragraph26 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1340px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO B #B1 TECH SUPPORT*/
+      .paragraph27 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1370px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO C #C1 MAY QUEST*/
+      .paragraph28 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1430px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO C #C1 MAY QUEST*/
+      .paragraph29 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1460px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO C #C1 MAY QUEST*/
+      .paragraph30 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1490px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO C #C1 MAY QUEST*/
+      .paragraph31 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1520px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO C #C1 MAY QUEST*/
+      .paragraph32 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1550px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO C #C1 MAY QUEST*/
+      .paragraph33 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1580px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO C #C1 MAY QUEST*/
+      .paragraph34 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1610px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO C #C1 MAY QUEST*/
+      .paragraph35 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1640px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*STUDIO C #C1 MAY QUEST*/
+      .paragraph36 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 1670px;
+        left: 841px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*#TTW18*/
+      .paragraph37 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 2040px;
+        left: 9px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
+      /*#TTW18*/
+      .paragraph38 {
+        font-size: 25px;
+        line-height: 0.1;
+        font-family: arial;
+        top: 2070px;
+        left: 9px;
+        width: 4000px;
+        height: 2200px;
+        color: yellow;
+        position: absolute;
+        z-index: 2;
+      }
